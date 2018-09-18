@@ -20,26 +20,26 @@ Estructura:
 8. Conocido por según DUI (si aplica)
 
 Norma: No aplica  
-Tipo de dato: Alfanumerico  
-Ejemplo: Mario Perez  
+Tipo de dato: Alfanumérico  
+Ejemplo: Mario Pérez  
 
 *Cada nombre o apellido deberá ser almacenado en un campo individual*
 
 ###  2. Fecha de Nacimiento   
 Estructura: «YYYY-MM-DD»  
 Norma: ISO 8601  
-Tipo de dato: Alfanumerico  
+Tipo de dato: Alfanumérico  
 Ejemplo: 2018-05-07  
 
 *Donde YYYY representa el año, MM el mes y DD el día del mes*
     
-###  3. registro de Identificador para paises   
+###  3. registro de Identificador para países   
 Tipo: ALFA   
 Estructura: XX   
 Norma: ISO 3166-1 "códigos alfa-2", tanto los vigentes como los reservados   
 Ejemplo de uso: SV   
-Tamaño nimino: 2   
-Tamaño maximo: 2   
+Tamaño mímino: 2   
+Tamaño máximo: 2   
 
 ###  4.  Registro del Sexo de una persona   
 Tipo: Alfanumerico   
