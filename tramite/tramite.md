@@ -25,7 +25,7 @@ A continuación se detalla la estructura definida en el RNT para los trámites y
     <tr>
       <td>2</td>
       <td>Modalidades</td>
-      <td>[Colección](#modalidad)</td>
+      <td>Colección</td>
       <td>Modalidades del trámite.</td>
     </tr>
     <tr>
@@ -72,7 +72,7 @@ Cada trámite tiene las modalidades necesarias basadas en los requisitos solicit
     <tr>
       <td>4</td>
       <td>Oficinas</td>
-      <td>[Colección](#oficina)</td>
+      <td>Colección</td>
       <td>Oficinas de la institución donde se puede realizar.</td>
     </tr>
     <tr>
@@ -102,13 +102,13 @@ Cada trámite tiene las modalidades necesarias basadas en los requisitos solicit
     <tr>
       <td>9</td>
       <td>Vigencia</td>
-      <td>[Relación](#vigencia)</td>
+      <td>Relación</td>
       <td>Vigencia de la modalidad.</td>
     </tr>
     <tr>
       <td>10</td>
       <td>Monto de pago</td>
-      <td>[Relación](#monto-de-pago)</td>
+      <td>Relación</td>
       <td>Monto a pagar en concepto de tarifa.</td>
     </tr>
   </tbody>
