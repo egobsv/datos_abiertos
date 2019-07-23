@@ -111,10 +111,23 @@ Cada trámite tiene las modalidades necesarias basadas en los requisitos solicit
       <td>Relación</td>
       <td>Monto a pagar en concepto de tarifa.</td>
     </tr>
+    <tr>
+      <td>11</td>
+      <td>Formularios</td>
+      <td>Colección</td>
+      <td>Formularios que se presentan para la solicitud.</td>
+    </tr>
+    <tr>
+      <td>12</td>
+      <td>Documentos anexos</td>
+      <td>Colección</td>
+      <td>Documentos anexos que se presentan para la solicitud.</td>
+    </tr>
   </tbody>
 </table>
 
 ### Vigencia
+#### Estructura
 <table>
   <thead>
     <th></th>
@@ -157,6 +170,7 @@ Cada trámite tiene las modalidades necesarias basadas en los requisitos solicit
 </table>
 
 ### Oficina
+#### Estructura
 <table>
   <thead>
     <th></th>
@@ -199,6 +213,7 @@ Cada trámite tiene las modalidades necesarias basadas en los requisitos solicit
 </table>
 
 ### Monto de pago
+#### Estructura
 <table>
   <thead>
     <th></th>
@@ -233,9 +248,65 @@ Cada trámite tiene las modalidades necesarias basadas en los requisitos solicit
     </tr>
     <tr>
       <td>5</td>
-      <td>Enlace</td>
+      <td>Enlace web</td>
       <td>Alfanumérico</td>
       <td>Enlace web directo al pliego tarifario.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Formularios
+#### Estructura
+<table>
+  <thead>
+    <th></th>
+    <th>Campo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Nombre</td>
+      <td>Alfanumérico</td>
+      <td></td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Enlace web</td>
+      <td>Alfanumérico</td>
+      <td>Enlace web directo al formulario.</td>
+    </tr>
+    <tr>
+      <td>3</td>
+      <td>Elementos</td>
+      <td>Colección</td>
+      <td>Los elementos que se solicitan dentro del formulario.</td>
+    </tr>
+  </tbody>
+</table>
+
+### Documento anexo
+#### Estructura
+<table>
+  <thead>
+    <th></th>
+    <th>Campo</th>
+    <th>Tipo</th>
+    <th>Descripción</th>
+  </thead>
+  <tbody>
+    <tr>
+      <td>1</td>
+      <td>Requisito</td>
+      <td>Alfanumérico</td>
+      <td>Requisito al que se refiere el documento anexo.</td>
+    </tr>
+    <tr>
+      <td>2</td>
+      <td>Descripción</td>
+      <td>Alfanumérico</td>
+      <td>Detalle del documento solicitado.</td>
     </tr>
   </tbody>
 </table>
